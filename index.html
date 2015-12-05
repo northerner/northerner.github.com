@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Daniel King</title>
+    <style>
+      body { margin: 0; }
+      #container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        background-color: #2E3032;
+        color: #FFFFFF;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 100;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex: 3;
+      }
+      footer {
+        flex: 2;
+      }
+      h1 { margin: 0; }
+      img.icon {
+        width: 2em;
+        height: 2em;
+      }
+      a {
+        margin-top: 1em;
+        color: #FFFFFF;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      span {
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <main>
+        <div>
+          <h1>Daniel King</h1>
+          <strong>Software Developer</strong>
+          <p>Sheffield, UK</p>
+        </div>
+        <a href="http://twitter.com/kingy"><img class="icon" src="images/twitter.svg"/><span>@kingy</span></a>
+        <a href="http://github.com/northerner"><img class="icon" src="images/github.svg"/><span>@northerner</span></a>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
