@@ -1,9 +1,17 @@
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   color: black;
   font-size: 16px;
-  margin: 0px auto 0px auto;
-  max-width: 600px;
+}
+
+h1, h2, h3, h4, #header {
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 40em;
 }
 
 .link-logos {
@@ -13,6 +21,11 @@ body {
   border-radius: 0.4em;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.link-logos div {
+  margin: 0.2em 0.6em;
 }
 
 .link-logos a {
@@ -77,4 +90,8 @@ div.info {
     color: #555;
     font-size: 14px;
     font-style: italic;
+}
+
+pre {
+  white-space: pre-wrap;
 }
